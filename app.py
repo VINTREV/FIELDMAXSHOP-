@@ -21,10 +21,10 @@ app.secret_key = 'your_secret_key'  # Needed for flashing messages
 
 # Establish database connection
 #conn = psycopg2.connect(
-    #host="localhost",
-    #database="Fieldmax_db",
-    #user="postgres",
-    #password="2952"
+    #host="dpg-d1jka6u3jp1c73ecbfo0-a",
+    #database="postgresql_vintrev",
+    #user="postgresql_vintrev_user",
+    #password="DH200Hh5o7jeQgUCqLoTcE9s8inwKOhv"
 #)
 
 conn = psycopg2.connect(
